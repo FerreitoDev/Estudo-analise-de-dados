@@ -1,0 +1,99 @@
+{
+  "clientes": [
+    {
+      "cliente_id": "C001",
+      "nome": "Ana Silva",
+      "email": "ana.silva@email.com",
+      "telefone": "(11) 99999-1234",
+      "endereco": {
+        "rua": "Rua das Flores, 123",
+        "cidade": "São Paulo",
+        "estado": "SP",
+        "cep": "01234-567"
+      },
+      "pedidos": [
+        {
+          "pedido_id": "P001",
+          "data": "2024-01-15",
+          "status": "Entregue",
+          "itens": [
+            {"produto": "Caderno Universitário", "quantidade": 2, "preco": 12.90},
+            {"produto": "Caneta Esferográfica", "quantidade": 5, "preco": 2.50}
+          ],
+          "total": 38.30
+        },
+        {
+          "pedido_id": "P002",
+          "data": "2024-01-20",
+          "status": "Processando",
+          "itens": [
+            {"produto": "Marca-texto", "quantidade": 3, "preco": 3.80},
+            {"produto": "Borracha", "quantidade": 2, "preco": 1.50}
+          ],
+          "total": 15.40
+        }
+      ]
+    },
+    {
+      "cliente_id": "C002",
+      "nome": "Carlos Oliveira",
+      "email": "carlos.oliveira@email.com",
+      "telefone": "(21) 98888-5678",
+      "endereco": {
+        "rua": "Av. Brasil, 456",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ",
+        "cep": "22345-678"
+      },
+      "pedidos": [
+        {
+          "pedido_id": "P003",
+          "data": "2024-01-18",
+          "status": "Entregue",
+          "itens": [
+            {"produto": "Lápis Grafite", "quantidade": 10, "preco": 1.20},
+            {"produto": "Apontador", "quantidade": 1, "preco": 3.50},
+            {"produto": "Régua 30cm", "quantidade": 1, "preco": 4.90}
+          ],
+          "total": 20.60
+        }
+      ]
+    },
+    {
+      "cliente_id": "C003",
+      "nome": "Mariana Santos",
+      "email": "mariana.santos@email.com",
+      "telefone": "(31) 97777-9012",
+      "endereco": {
+        "rua": "Rua das Palmeiras, 789",
+        "cidade": "Belo Horizonte",
+        "estado": "MG",
+        "cep": "30123-456"
+      },
+      "pedidos": [
+        {
+          "pedido_id": "P004",
+          "data": "2024-01-22",
+          "status": "Enviado",
+          "itens": [
+            {"produto": "Tesoura Escolar", "quantidade": 1, "preco": 6.80},
+            {"produto": "Cola Branca", "quantidade": 2, "preco": 5.20}
+          ],
+          "total": 17.20
+        },
+        {
+          "pedido_id": "P005",
+          "data": "2024-01-25",
+          "status": "Pendente",
+          "itens": [
+            {"produto": "Compasso", "quantidade": 1, "preco": 15.90},
+            {"produto": "Estojo", "quantidade": 1, "preco": 8.90}
+          ],
+          "total": 24.80
+        }
+      ]
+    }
+  ],
+  "total_clientes": 3,
+  "data_exportacao": "2024-01-26"
+}

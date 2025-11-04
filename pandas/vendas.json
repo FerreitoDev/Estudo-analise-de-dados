@@ -1,0 +1,20 @@
+[
+    {
+        "Data":"2025-01-01",
+        "Produto":"Notebook",
+        "Pre\u00e7o":3200.0,
+        "Quantidade":10
+    },
+    {
+        "Data":"2025-01-02",
+        "Produto":"Mouse",
+        "Pre\u00e7o":89.9,
+        "Quantidade":50
+    },
+    {
+        "Data":"2025-01-03",
+        "Produto":"Teclado",
+        "Pre\u00e7o":249.0,
+        "Quantidade":30
+    }
+]
